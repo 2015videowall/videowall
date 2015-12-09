@@ -1,0 +1,340 @@
+.linkarea{
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+    top:-45px;
+	left: 25px;
+}
+
+.sortingarea{
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+    top:-68px;
+	left: 830px;
+}
+
+.elematory{
+	display: inline-block;
+	width: 1000px;
+	height: 270px;
+	margin-top:5px;
+}
+.elematoryall{
+	display: inline-block;
+	width: 1000px;
+	height: 800px;
+	margin-top:5px;
+}
+.elematory h1, .elematoryall h1{
+	background-color: #f91212;
+	width: 980px;
+	text-align:center;
+	color: #FFF;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.juniorhigh{
+	display: inline-block;
+	width: 1000px;
+	height: 270px;
+	margin-top:5px;
+}
+.juniorhighall{
+	display: inline-block;
+	width: 1000px;
+	height: 800px;
+	margin-top:5px;
+}
+.juniorhigh h1, .juniorhighall h1{
+	background-color: #342cd9;
+	width: 980px;
+	text-align:center;
+	color: #FFF;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.seniorhigh{
+	display: inline-block;
+	width: 1000px;
+	height: 270px;
+	margin-top:5px;
+}
+
+.seniorhighall{
+	display: inline-block;
+	width: 1000px;
+	height: 800px;
+	margin-top:5px;
+}
+.seniorhigh h1, .seniorhighall h1{
+	background-color: #938b07;
+	width: 980px;
+	text-align:center;
+	color: #FFF;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.vocational{
+	display: inline-block;
+	width: 1000px;
+	height: 270px;
+	margin-top:5px;
+}
+
+.vocationalall{
+	display: inline-block;
+	width: 1000px;
+	height: 800px;
+	margin-top:5px;
+}
+
+.vocational h1, .vocationalall h1{
+	background-color: #056e0a;
+	width: 980px;
+	text-align:center;
+	color: #FFF;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.teacher{
+	display: inline-block;
+	width: 1000px;
+	height: 270px;
+	margin-top:5px;
+}
+
+.teacherall{
+	display: inline-block;
+	width: 1000px;
+	height: 800px;
+	margin-top:5px;
+}
+.teacher h1, .teacherall h1{
+	background-color: #9b12a0;
+	width: 980px;
+	text-align:center;
+	color: #FFF;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.video {
+	font-weight: bold;
+	display: inline-block;
+	width:192px;
+	height:165px;
+	margin-left:7px;
+	float: left;
+}
+
+.videosnap{
+	cursor: pointer;
+	width:192px;
+	height:108px;
+}
+
+.description {
+	height: 20px;
+}
+
+.description a{
+	text-decoration:none;
+	float: left;
+}
+
+.description span.likes{
+	margin-right:5px;
+	float: right;
+}
+.description .filename{
+	width: 170px;
+	margin-top:10px;
+}
+
+.more {
+	background-color: #595656;
+	float:right;
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width:100px;
+	color: #FFF;
+	border-radius: 5px;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+.more a {
+	text-decoration:none;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 14px;
+}
+#video_area {
+	-moz-border-radius: 6px;
+	background: #eef2f7;
+	-webkit-border-radius: 6px;
+	border: 1px solid #536376;
+	-webkit-box-shadow: rgba(0, 0, 0, .6) 0px 2px 12px;
+	-moz-box-shadow: rgba(0, 0, 0, .6) 0px 2px 12px;;
+	padding: 5px 10px;
+	width: 980px;
+	height: 590px;
+	position: relative;
+	display: none;
+}
+#worning {
+	color:#000;
+	font-size:11px;
+	text-align:center;
+	width:100%;
+}
+#play_area{
+	margin-top: 10px;
+	text-align:center;
+}
+
+#btnClose{
+	float:right;
+	width:16px;
+	height:16px;
+	cursor: pointer;
+	top: -10px;
+	position: relative;
+}
+
+#video_area label {
+	display: block;
+	margin-bottom: 10px;
+	color: #536376;
+	font-size: .9em;
+}
+
+#actions {
+	float:right;
+	margin-top:10px;
+	text-align:center;
+}
+
+#cancel, #download {
+	overflow: hidden;
+	width: 100%;
+	text-decoration:none;
+	font-weight: bold;
+	margin-right: 15px;
+	color: #000;
+}
+
+#search{
+	position: absolute;
+	font-family: "微軟正黑體", "新細明體", Arial;
+	height: 96px;
+	width: 666px;
+	bottom: 40px;
+	left: 25px;
+}
+#copyright{
+	font-family: "微軟正黑體", "新細明體", Arial;
+	top: 75px;
+	left: 23px;
+	position: absolute;
+}
+#newsearch{
+	float:left;
+	padding:20px;
+}
+.search_text {
+	margin: 0px;
+	padding: 5px 15px;
+	font-size:14px;
+	border:1px solid #0076a3; border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.search_button {
+	margin-left: -4px;
+	padding: 5px 15px;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #0076a3; border-right:0px;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.search_button:hover {
+	text-decoration: none;
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+/* Fixes submit button height problem in Firefox */
+.search_button:-moz-focus-inner {
+  	border: 0;
+}
+.search_clear{
+	clear:both;
+}
+.fileid{
+	display: none;
+}
+.exit-btn { 
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    display: inline-block;
+    margin: 15px 30px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; 
+    z-index:100;
+    top:550px;
+    left:900px;
+}
+
+.exit-btn-main { 
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    display: inline-block;
+    margin: 15px 30px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; 
+    z-index:100;
+    top:535px;
+    left:900px;
+}
+ 
+.exit-btn-3 {
+    background-color: #0095cd;
+    color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 5px #2937C5;
+    padding: 10px 25px;
+}

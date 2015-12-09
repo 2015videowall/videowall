@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<web-application>
+	<param name="DB_DRIVER">com.microsoft.sqlserver.jdbc.SQLServerDriver</param>
+	<param name="DB_URL">jdbc:sqlserver://localhost;DatabaseName=PrivateCloud;</param>
+	<param name="DB_USER_NAME"></param>
+	<param name="DB_USER_PASS"></param>
+	<param name="DB_MAX_ACTIVE">6000</param>
+    <param name="DB_MAX_IDLE">1000</param>
+    <param name="DB_MAX_WAIT">150000</param>
+	<param name="SESSION_TIMEOUT_IN_MINUTES">40</param>
+	<param name="ASUS_WEBSTORAGE_SID"></param>
+	<param name="ASUS_WEBSTORAGE_PROGKEY"></param>
+	<param name="ASUS_WEBSTORAGE_IS_PRIVATE_CLOUD">true</param>
+	<param name="ASUS_WEBSTORAGE_CONNECTION_SERVER">https://sp.yostore.net</param>
+	<param name="ASUS_WEBSTORAGE_SERVICE_GATEWAY">https://educase.kh.edu.tw/sg</param>
+	<!-- 高市影音牆專用 -->
+	<param name="USER_ID"></param>
+	<param name="USER_PWD"></param>
+	<param name="PAGE_SIZE">100</param>
+	<param name="OPENID_LOGIN_PAGE">https://educase.kh.edu.tw/navigate/themes/web/2015film/index.jsp</param>
+	<param name="AFTER_LOGOUT_PAGE">https://educase.kh.edu.tw/navigate/themes/web/2015film/index.jsp</param>
+	<param name="FOLDER_ELEMATORY">2015微電影@EduCase_國小組</param>
+	<param name="FOLDER_JUNIORHIGH">2015微電影@EduCase_國中組</param>
+	<param name="FOLDER_SENIORHIGH">2015微電影@EduCase_高中組</param>
+	<param name="FOLDER_VOCTIONAL">2015微電影@EduCase_高職組</param>
+	<param name="FOLDER_TEACHER">2015微電影@EduCase_教職員組</param>
+	<param name="SHOW_LIKES_BTN">false</param> <!-- 是否顯示按讚按鈕 -->
+	<param name="SHOW_SEARCH_BAR">true</param> <!-- 是否顯示搜尋BAR -->
+	<param name="SHOW_UPLOADER_ID">true</param> <!-- 是否顯示上傳者ID -->
+	<param name="SHOW_VOTES_INFO">false</param>  <!-- 是否顯示投票統計資訊 -->
+</web-application>
